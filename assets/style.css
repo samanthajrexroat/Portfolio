@@ -16,12 +16,12 @@ nav{
     background-color: #bdc3c7;
     min-height: 10vh;
     font-size: 2rem;
+    color: #2980b9;
 }
 
 /* styling anchor links in nav bar */
 nav a{
     text-decoration: none;
-    color: #2980b9;
     padding: 1.5rem;
     font-weight: 800;
 }
@@ -39,47 +39,85 @@ nav a:hover{
 
 /* making my name bigger than the other links */
 .name {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 1000;
 }
 
-/*nav ul{
+main{
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    min-width: 300px;
-}
-
-ul{
-    list-style: none;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
-    padding-inline-start: 40px;
-}
-
-li{
-    display: list-item;
-}
-
-a{
-    color: #16a085;
-    text-decoration: none;
-}
-
-div{
-    display: flex;
+    background-color: #ecf0f1;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.portrait{
-    height: 350px;
-    width: 250px;
+/* styling the div */
+.container {
+    border: 5px solid purple;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* styling my portrait */
+.project-img {
+    border: 5px solid yellow;
+  max-width: 50rem;
+  max-height: 50rem;
+  border-radius: 15rem;
+  margin: 7rem;
+}
+
+/* styling the headers for each section */
+.project-info h2 {
+    text-align: left;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-top:2rem;
+}
+
+/* styling the card container */
+.card{
+    border: 5px solid #34495e;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex: 0 0 40rem;
+}
+
+/* styling the card image */
+.card img{
+    display: flex;
+    border: 5px solid blue;
+    max-height: 40rem;
+    max-width: 30rem;
+    border-radius: 5rem;
     align-self: center;
 }
 
-.container{
-
+/* styling the card text */
+.card h3{
+    display: block;
+    font-size: 2rem;
+    margin-block-start: .83rem;
+    margin-block-end: .83rem;
+    text-align: center;
 }
 
-.card{
- */
+/* styling my paragraph text */
+p {
+    border: 5px solid red;
+    display: flex;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 3rem;
+    letter-spacing: .2rem;
+}
+
+#most-recent {
+    max-height: 50rem;
+    max-width: 40rem;
+} 
