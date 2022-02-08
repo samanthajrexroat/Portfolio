@@ -43,6 +43,9 @@ nav a:hover{
     font-weight: 1000;
 }
 
+/* styling the main,
+which will contain the three 
+sections of the site */
 main{
     display: flex;
     background-color: #ecf0f1;
@@ -51,9 +54,18 @@ main{
     min-height: 100vh;
 }
 
+/* styling my paragraph text */
+p {
+    display: flex;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 3rem;
+    letter-spacing: .2rem;
+    padding: 1rem;
+}
+
 /* styling the div */
 .container {
-    border: 5px solid purple;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -64,11 +76,18 @@ main{
 
 /* styling my portrait */
 .project-img {
-    border: 5px solid yellow;
   max-width: 50rem;
   max-height: 50rem;
   border-radius: 15rem;
   margin: 7rem;
+}
+
+/* styling the containers for the sections */
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* styling the headers for each section */
@@ -79,26 +98,30 @@ main{
     margin-top:2rem;
 }
 
-/* styling the card container */
-.card {
-    border: 5px solid #34495e;
+.card-container {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
-    padding: 1.5rem 2.5rem;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the cards */
+.card {
+    padding: 2rem;
+    margin: 4rem;
+    justify-content: center;
+    align-items: center;
     /* flex: 0 0 40rem; */
 }
 
 /* styling the card image */
 .card img{
-    display: flex;
-    border: 5px solid blue;
+    display: block;
     width: 100%;
-    max-height: 40rem;
-    max-width: 30rem; 
+    height: 40rem;
+    width: 30rem; 
     border-radius: 5rem;
-    align-self: center;
+    /* align-self: center; */
 }
 
 /* styling the card text */
@@ -109,7 +132,8 @@ main{
     margin-block-end: .83rem;
     text-align: center;
 }
-
+/* styling the link to my most recent
+work project */
 .card a {
     display: block;
     font-size: 2rem;
@@ -119,34 +143,28 @@ main{
     text-decoration: none;
 }
 
-/* styling my paragraph text */
-p {
-    border: 5px solid red;
-    display: flex;
-    font-size: 2rem;
-    text-align: left;
-    line-height: 3rem;
-    letter-spacing: .2rem;
-    padding: 1rem;
-}
 
+/* making the most recent work project
+larger than the others. */
 #most-recent {
-    max-height: 50rem;
-    max-width: 40rem;
+    height: 50rem;
+    width: 40rem;
+    display: block;
+    padding: 2rem;
 } 
 
 /* navbar media query */
-@media(max-width: 60rem){
+@media(max-width: 80rem){
     nav{
         flex-direction: column;
     }
 }
 
 /* media query for card layout */
-/* HELP MEEEEEE!!!!! */
-@media(min-width: 60rem){
-    .card {
+@media(min-width: 80rem){
+    .card-container {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
