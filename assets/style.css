@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+/* This sets the font size default to 10px */
+html {
+    font-size: 62.5%;
+}
+
+/* Styling the nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bdc3c7;
+    min-height: 10vh;
+    font-size: 2rem;
+}
+
+/* styling anchor links in nav bar */
+nav a{
+    text-decoration: none;
+    color: #2980b9;
+    padding: 1.5rem;
+    font-weight: 800;
+}
+/* giving the links a cool shadow effect */
+nav a:hover{
+    text-shadow: 2px 2px 5px #2980b9;
+
+}
+
+/* making the links horizontal */
+.nav-links li {
+    display: inline;
+    
+}
+
+/* making my name bigger than the other links */
+.name {
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+/*nav ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-width: 300px;
+}
+
+ul{
+    list-style: none;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 40px;
+}
+
+li{
+    display: list-item;
+}
+
+a{
+    color: #16a085;
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.portrait{
+    height: 350px;
+    width: 250px;
+    align-self: center;
+}
+
+.container{
+
+}
+
+.card{
+ */
