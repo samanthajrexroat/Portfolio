@@ -7,10 +7,9 @@
 
 ## Links
 
-https://samanthajrexroat.github.io/Portfolio/
+[Deployed Live](https://samanthajrexroat.github.io/Portfolio/)
 
-https://github.com/samanthajrexroat/Portfolio
+[GitHub Repository](https://github.com/samanthajrexroat/Portfolio)
 
 ## Screenshot
-
-    Screenshot is located in the assets folder.
+![Portfolio Screenshot](./assets/images/screenshot-1.png)
