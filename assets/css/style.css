@@ -28,8 +28,13 @@ nav a{
 }
 /* giving the links a cool shadow effect */
 a:hover{
-    text-shadow: 2px 2px 5px #2980b9;
+    text-shadow: 2px 2px 5px #e27085;
+    filter: blur(1px);
+}
 
+svg:hover {
+    fill: #e27085;
+    filter: blur(1px);
 }
 
 /* making the links horizontal */
@@ -43,6 +48,7 @@ a:hover{
     font-size: 6rem;
     font-weight: 1000;
     text-shadow: 1px 1px rgb(174, 171, 171);
+    margin-top: 2rem;
 }
 
 /* styling the main,
@@ -166,6 +172,8 @@ work project */
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+
 
 #gitIcon {
     margin-left: 7rem;
