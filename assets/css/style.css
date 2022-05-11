@@ -28,12 +28,12 @@ nav a{
 }
 /* giving the links a cool shadow effect */
 a:hover{
-    text-shadow: 2px 2px 5px #e27085;
-    filter: blur(1px);
+    text-shadow: 2px 2px 5px #4d0e2e;
+    
 }
 
 svg:hover {
-    fill: #e27085;
+    fill: #4d0e2e;
     filter: blur(1px);
 }
 
@@ -49,6 +49,7 @@ svg:hover {
     font-weight: 1000;
     text-shadow: 1px 1px rgb(174, 171, 171);
     margin-top: 2rem;
+    color: #4d0e2e;
 }
 
 /* styling the main,
@@ -115,6 +116,7 @@ p {
     padding: 1.5rem;
     margin-top: 8rem;
     font-size: 6rem;
+    color: #4d0e2e;
 }
 
 .card-container {
@@ -145,6 +147,10 @@ p {
     padding: 2rem;
     align-self: center; 
     justify-self: center;
+}
+
+.card img:hover{
+    box-shadow: 5px 5px 10px #4d0e2e;
 }
 
 /* styling the card text */
